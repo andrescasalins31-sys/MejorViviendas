@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import {
   getViviendasViviendas2025,
   getViviendasAntioquia
-} from "../src/api/api";
+} from "../api/api";
 
 export default function ViviendaScreen() {
   const { proyecto, sector } = useParams();

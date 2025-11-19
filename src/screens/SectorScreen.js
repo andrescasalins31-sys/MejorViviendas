@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getBarriosViviendas2025, getBarriosAntioquia } from "../src/api/api";
+import { getBarriosViviendas2025, getBarriosAntioquia } from "../api/api";
 
 export default function SectorScreen() {
   const { proyecto } = useParams();
