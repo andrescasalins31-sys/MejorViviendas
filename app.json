@@ -1,29 +1,42 @@
 {
   "expo": {
-    "name": "app-mejoramientos",
-    "slug": "app-mejoramientos",
+    "name": "Viviendas2025",
+    "slug": "viviendas2025",
     "version": "1.0.0",
     "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "webpack",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "manifest": {
+          "short_name": "Viviendas",
+          "name": "Fotos Mejoramientos Viviendas Web",
+          "start_url": "/",
+          "display": "standalone",
+          "theme_color": "#007bff",
+          "background_color": "#ffffff",
+          "icons": [
+            {
+              "src": "./assets/icon-192.png",
+              "sizes": "192x192",
+              "type": "image/png"
+            },
+            {
+              "src": "./assets/icon-512.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+          ]
+        }
+      }
     }
   }
 }
