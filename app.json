@@ -12,31 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "web": {
-      "bundler": "webpack",
-      "output": "static",
-      "favicon": "./assets/favicon.png",
-      "config": {
-        "manifest": {
-          "short_name": "Viviendas",
-          "name": "Fotos Mejoramientos Viviendas Web",
-          "start_url": "/",
-          "display": "standalone",
-          "theme_color": "#007bff",
-          "background_color": "#ffffff",
-          "icons": [
-            {
-              "src": "./assets/icon-192.png",
-              "sizes": "192x192",
-              "type": "image/png"
-            },
-            {
-              "src": "./assets/icon-512.png",
-              "sizes": "512x512",
-              "type": "image/png"
-            }
-          ]
-        }
-      }
+      "favicon": "./assets/favicon.png"
     }
   }
 }
+
